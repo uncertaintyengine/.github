@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="128" height="128" src="./assets/icons/engine.svg" alt="Uncertainty Engine logo" />
+<img width="128" height="128" src="../assets/icons/engine.svg" alt="Uncertainty Engine logo" />
 
 # Uncertainty Engine
 
