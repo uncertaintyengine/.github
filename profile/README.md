@@ -43,6 +43,6 @@ Read and write large files, datasets, artefacts, and other persisted resources.
 
 Run workloads using interchangeable execution backends.
 
-| Adapter                                                            | Status | Description                                                                 |
-| ------------------------------------------------------------------ | ------ | --------------------------------------------------------------------------- |
-| [Venv](https://github.com/uncertaintyengine/ExecutionAdapter-Venv) | TODO   | Execution adapter for running workloads inside Python virtual environments. |
+| Adapter                                                            | Status                                                                                                                                                                                        | Description                                                                 |
+| ------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| [Venv](https://github.com/uncertaintyengine/ExecutionAdapter-Venv) | [![CI](https://github.com/uncertaintyengine/ExecutionAdapter-Venv/actions/workflows/ci.yaml/badge.svg)](https://github.com/uncertaintyengine/ExecutionAdapter-Venv/actions/workflows/ci.yaml) | Execution adapter for running workloads inside Python virtual environments. |
