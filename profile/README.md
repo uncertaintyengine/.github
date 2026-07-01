@@ -12,11 +12,11 @@
 
 The core framework repositories define the shared interfaces, API surface, and client tooling used across the Uncertainty Engine ecosystem.
 
-| Repository                                        | Status                                                                                                                                                      | Description                                                     |
-| ------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
-| [Core](https://github.com/uncertaintyengine/core) | [![CI](https://github.com/uncertaintyengine/core/actions/workflows/ci.yaml/badge.svg)](https://github.com/uncertaintyengine/core/actions/workflows/ci.yaml) | Shared interfaces, models, validators, and type definitions.    |
-| [API](https://github.com/uncertaintyengine/api)   | TODO                                                                                                                                                        | RESTful HTTP API for serving and orchestrating engine services. |
-| [SDK](https://github.com/uncertaintyengine/sdk)   | TODO                                                                                                                                                        | Python client for interacting with the Uncertainty Engine API.  |
+| Repository                                        | Status                                                                                                                                                      | Description                                                    |
+| ------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
+| [Core](https://github.com/uncertaintyengine/Core) | [![CI](https://github.com/uncertaintyengine/Core/actions/workflows/ci.yaml/badge.svg)](https://github.com/uncertaintyengine/Core/actions/workflows/ci.yaml) | Shared interfaces, models, validators, and type definitions.   |
+| [API](https://github.com/uncertaintyengine/API)   | [![CI](https://github.com/uncertaintyengine/API/actions/workflows/ci.yaml/badge.svg)](https://github.com/uncertaintyengine/API/actions/workflows/ci.yaml)   | Streaming API for Uncertainty Engine services.                 |
+| [SDK](https://github.com/uncertaintyengine/SDK)   | [![CI](https://github.com/uncertaintyengine/SDK/actions/workflows/ci.yaml/badge.svg)](https://github.com/uncertaintyengine/SDK/actions/workflows/ci.yaml)   | Python client for interacting with the Uncertainty Engine API. |
 
 ## Adapters
 
