@@ -20,9 +20,9 @@ The core framework repositories define the shared interfaces, API surface, and c
 
 ## Adapters
 
-Adapters provide interchangeable implementations for service backends.
+Adapters provide interchangeable implementations for ports.
 
-### Cache Service
+### Cache
 
 Fast key-value storage for shared state, intermediate results, and lightweight coordination.
 
@@ -31,15 +31,15 @@ Fast key-value storage for shared state, intermediate results, and lightweight c
 | [RAM](https://github.com/uncertaintyengine/CacheAdapter-RAM)     | [![CI](https://github.com/uncertaintyengine/CacheAdapter-RAM/actions/workflows/ci.yaml/badge.svg)](https://github.com/uncertaintyengine/CacheAdapter-RAM/actions/workflows/ci.yaml)     | In-memory cache adapter for local development and lightweight deployments. |
 | [Redis](https://github.com/uncertaintyengine/CacheAdapter-Redis) | [![CI](https://github.com/uncertaintyengine/CacheAdapter-Redis/actions/workflows/ci.yaml/badge.svg)](https://github.com/uncertaintyengine/CacheAdapter-Redis/actions/workflows/ci.yaml) | Redis-backed cache adapter for shared or distributed deployments.          |
 
-### Resource Service
+### Data Residency
 
-Read and write large files, datasets, artefacts, and other persisted resources.
+Read and write large files, datasets, artefacts, and other persisted data.
 
-| Adapter                                                                                  | Status                                                                                                                                                                                                            | Description                                                             |
-| ---------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| [Local Filesystem](https://github.com/uncertaintyengine/ResourceAdapter-LocalFilesystem) | [![CI](https://github.com/uncertaintyengine/ResourceAdapter-LocalFilesystem/actions/workflows/ci.yaml/badge.svg)](https://github.com/uncertaintyengine/ResourceAdapter-LocalFilesystem/actions/workflows/ci.yaml) | Resource adapter for reading and writing files on the local filesystem. |
+| Adapter                                                                                       | Status                                                                                                                                                                                                                      | Description                                                                   |
+| --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| [Local Filesystem](https://github.com/uncertaintyengine/DataResidencyAdapter-LocalFilesystem) | [![CI](https://github.com/uncertaintyengine/DataResidencyAdapter-LocalFilesystem/actions/workflows/ci.yaml/badge.svg)](https://github.com/uncertaintyengine/DataResidencyAdapter-LocalFilesystem/actions/workflows/ci.yaml) | Data residency adapter for reading and writing files on the local filesystem. |
 
-### Execution Service
+### Execution
 
 Run workloads using interchangeable execution backends.
 
