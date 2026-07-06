@@ -29,6 +29,14 @@ Client libraries for interacting with the Uncertainty Engine API.
 | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
 | [Python](https://github.com/uncertaintyengine/ClientAdapter-Python) | [![CI](https://github.com/uncertaintyengine/ClientAdapter-Python/actions/workflows/ci.yaml/badge.svg)](https://github.com/uncertaintyengine/ClientAdapter-Python/actions/workflows/ci.yaml) | Python client library for interacting with the Uncertainty Engine API. |
 
+### Authentication
+
+Authentication adapters for verifying and authorising requests to the Uncertainty Engine API.
+
+| Adapter                                                                       | Status                                                                                                                                                                                                        | Description                                                                      |
+| ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| [Cognito](https://github.com/uncertaintyengine/AuthenticationAdapter-Cognito) | [![CI](https://github.com/uncertaintyengine/AuthenticationAdapter-Cognito/actions/workflows/ci.yaml/badge.svg)](https://github.com/uncertaintyengine/AuthenticationAdapter-Cognito/actions/workflows/ci.yaml) | Authentication adapter for verifying and authorising requests using AWS Cognito. |
+
 ### Cache
 
 Fast key-value storage for shared state, intermediate results, and lightweight coordination.
