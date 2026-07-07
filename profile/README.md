@@ -51,9 +51,9 @@ Fast key-value storage for shared state, intermediate results, and lightweight c
 
 Read and write large files, datasets, artefacts, and other persisted data.
 
-| Adapter                                                                                       | Status                                                                                                                                                                                                                      | Description                                                                   |
-| --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
-| [Local Filesystem](https://github.com/uncertaintyengine/DataResidencyAdapter-LocalFilesystem) | [![CI](https://github.com/uncertaintyengine/DataResidencyAdapter-LocalFilesystem/actions/workflows/ci.yaml/badge.svg)](https://github.com/uncertaintyengine/DataResidencyAdapter-LocalFilesystem/actions/workflows/ci.yaml) | Data residency adapter for reading and writing files on the local filesystem. |
+| Adapter                                                                            | Status                                                                                                                                                                                                            | Description                                                                   |
+| ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| [Filesystem](https://github.com/uncertaintyengine/DataResidencyAdapter-Filesystem) | [![CI](https://github.com/uncertaintyengine/DataResidencyAdapter-Filesystem/actions/workflows/ci.yaml/badge.svg)](https://github.com/uncertaintyengine/DataResidencyAdapter-Filesystem/actions/workflows/ci.yaml) | Data residency adapter for reading and writing files on the local filesystem. |
 
 ### Execution
 
