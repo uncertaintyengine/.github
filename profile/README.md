@@ -25,9 +25,10 @@ Adapters provide interchangeable implementations for ports.
 
 Client libraries for interacting with the Uncertainty Engine API.
 
-| Adapter                                                             | Status                                                                                                                                                                                      | Description                                                            |
-| ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| [Python](https://github.com/uncertaintyengine/ClientAdapter-Python) | [![CI](https://github.com/uncertaintyengine/ClientAdapter-Python/actions/workflows/ci.yaml/badge.svg)](https://github.com/uncertaintyengine/ClientAdapter-Python/actions/workflows/ci.yaml) | Python client library for interacting with the Uncertainty Engine API. |
+| Adapter                                                                     | Status                                                                                                                                                                                              | Description                                                                |
+| --------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| [Python](https://github.com/uncertaintyengine/ClientAdapter-Python)         | [![CI](https://github.com/uncertaintyengine/ClientAdapter-Python/actions/workflows/ci.yaml/badge.svg)](https://github.com/uncertaintyengine/ClientAdapter-Python/actions/workflows/ci.yaml)         | Python client library for interacting with the Uncertainty Engine API.     |
+| [TypeScript](https://github.com/uncertaintyengine/ClientAdapter-TypeScript) | [![CI](https://github.com/uncertaintyengine/ClientAdapter-TypeScript/actions/workflows/ci.yaml/badge.svg)](https://github.com/uncertaintyengine/ClientAdapter-TypeScript/actions/workflows/ci.yaml) | TypeScript client library for interacting with the Uncertainty Engine API. |
 
 ### Authentication
 
